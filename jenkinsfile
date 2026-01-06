@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('checkout') {
             steps {
-            git 'https://github.com/amitopenwriteup/java11-examples.git'
+            git 'https://github.com/Faiz0603/java11-examples.git'
             }
         }
         stage ('packaging') {
